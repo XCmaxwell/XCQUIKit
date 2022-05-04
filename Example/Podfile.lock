@@ -1,0 +1,20 @@
+PODS:
+  - XCUIKit (0.1.0):
+    - XCUIKit/XCGuesture (= 0.1.0)
+    - XCUIKit/XCUI (= 0.1.0)
+  - XCUIKit/XCGuesture (0.1.0)
+  - XCUIKit/XCUI (0.1.0)
+
+DEPENDENCIES:
+  - XCUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  XCUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCUIKit: d76f70c85127886465ecb953a48c63b7cc2e5a43
+
+PODFILE CHECKSUM: c264b6ba5f210a79b6534775ad9c1636cfd4719a
+
+COCOAPODS: 1.11.2

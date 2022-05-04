@@ -1,0 +1,32 @@
+{
+  "name": "XCUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of XCUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://XXXXXX/xcwang24/XCUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xcwang24": "xcwang24@iflytek.com"
+  },
+  "source": {
+    "git": "https://xxxx.com/xcwang24/XCUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XCUIKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "XCUI",
+      "source_files": "Pod/Classes/XCUI/*"
+    },
+    {
+      "name": "XCGuesture",
+      "source_files": "Pod/Classes/XCGuesture/*"
+    }
+  ]
+}
