@@ -48,4 +48,9 @@ TODO: Add long description of the pod here.
     g.source_files = 'Pod/Classes/XCGuesture/*'
   end
   
+  s.subspec 'XCDevice' do |u|
+    u.source_files = 'Pod/Classes/XCDevice/*'
+  end
+
+  
 end

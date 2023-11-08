@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XCDeviceUtil.h"
 #import "XCPanDirectionGestureRecognizer.h"
 #import "UIButton+ImagePostion.h"
 #import "XCEdgeInsetsLabel.h"

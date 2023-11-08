@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xcwang24;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Y72J85XF23;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 37C2C6CC33C67E47A4FA75C6 /* Pods-XCUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y72J85XF23;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XCUIKit/XCUIKit-Prefix.pch";
 				INFOPLIST_FILE = "XCUIKit/XCUIKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 59FD435DBFCB64A20BFBE0CD /* Pods-XCUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y72J85XF23;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XCUIKit/XCUIKit-Prefix.pch";
 				INFOPLIST_FILE = "XCUIKit/XCUIKit-Info.plist";

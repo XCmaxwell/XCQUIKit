@@ -18,7 +18,7 @@ typedef enum : NSInteger {
 
 @property (nonatomic, assign) XCPanDirection panDirection;
 
-/// 自定义pan手势
+/// 自定义pan手势，只生效横向或纵向
 /// @param target target
 /// @param action action
 /// @param panDirection 只允滑动的方向

@@ -1,7 +1,9 @@
 PODS:
   - XCUIKit (0.1.0):
+    - XCUIKit/XCDevice (= 0.1.0)
     - XCUIKit/XCGuesture (= 0.1.0)
     - XCUIKit/XCUI (= 0.1.0)
+  - XCUIKit/XCDevice (0.1.0)
   - XCUIKit/XCGuesture (0.1.0)
   - XCUIKit/XCUI (0.1.0)
 
@@ -13,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XCUIKit: d76f70c85127886465ecb953a48c63b7cc2e5a43
+  XCUIKit: 93968f90e12f238850de0b5bb174568191e17f7c
 
 PODFILE CHECKSUM: c264b6ba5f210a79b6534775ad9c1636cfd4719a
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1

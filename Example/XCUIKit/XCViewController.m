@@ -7,6 +7,7 @@
 //
 
 #import "XCViewController.h"
+#import <XCUIKit/XCDeviceUtil.h>
 
 @interface XCViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+
+    
+    
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
 }
 
 - (void)didReceiveMemoryWarning

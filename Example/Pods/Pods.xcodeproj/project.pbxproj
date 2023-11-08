@@ -7,79 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13330DEDE6540D2A5EDA7D5203975367 /* UIButton+ImagePostion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4765090A911AF343AE140FB76526084D /* UIButton+ImagePostion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		286B16C0071656ADDFC34360022CF622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3510DB4F010C5DA699EBE835BDB402E5 /* XCPanDirectionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08224B1A2CDB0B17A01826DF56FD43 /* XCPanDirectionGestureRecognizer.m */; };
-		3DA531C3D01C3062476A8262E89257BB /* XCEdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C59055409053F4E3E29A352DBE13BF /* XCEdgeInsetsLabel.m */; };
-		4EE758F7E7F08B45E52CBEBC408493C2 /* XCEdgeInsetsLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFBE9E2D508E229D0EF6556C1828C1E /* XCEdgeInsetsLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1988D04089E0064314F1CB8AAF4F5E /* XCDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AF72191EB41D6B5FE92FEF4071BAAA9D /* XCDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E9929C39315718F7AC3FEA65230FB8B /* XCUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC97D12CD1A5646C4ADA26816DB3E7C8 /* XCUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323EEB9CB8865589CBEF568BE454269B /* UIButton+ImagePostion.m in Sources */ = {isa = PBXBuildFile; fileRef = E3003379729D02818BEDF7C7C3C60554 /* UIButton+ImagePostion.m */; };
+		51B53E7FC314BF968516ECB983C820CF /* XCPanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C7424F1F5746B6F3661634C943C52 /* XCPanDirectionGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D2BD2545831ACACB2820230155D34A /* Pods-XCUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029F2A9CCA45E1587C0E2ED63DFF052 /* Pods-XCUIKit_Tests-dummy.m */; };
-		61A36ECFFC113BB63EF077B5E7611C50 /* XCUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC546B9C28A019246D857BFE8F11F09 /* XCUIKit-dummy.m */; };
 		658953A6046A112503E8E5E0A1456610 /* Pods-XCUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E647488238C9487861B3FC03F731DF4 /* Pods-XCUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74FF2C0C650F45A40EB9A0D794D3791B /* UIButton+ImagePostion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7015F056E4853ABD6FD3FF56C830C699 /* UIButton+ImagePostion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E5D91A9C24B7D4FCC59BA433551692F /* XCPanDirectionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AA66915A0AB39378FE04974264FFAB /* XCPanDirectionGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87D9016DE6A908566D90FA784D2BDD2F /* UIButton+ImagePostion.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7C73432144784F1DB0C2AB2B3D44BD /* UIButton+ImagePostion.m */; };
-		8BC79AE016FD87D0B42D461B21E60E9B /* XCUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FAE585BD407C04E5BFA087AA622F8B /* XCUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F2F344DC2BAC4BBFE1E52AF0C52AF7B /* XCEdgeInsetsLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9531F3C5B5C28CB8751328D978618A09 /* XCEdgeInsetsLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91879E7C8B174964622D45E8DE80036B /* Pods-XCUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 926BACBFFE40C1783D604E61111D3B96 /* Pods-XCUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A67E240EAA16122A5ABD2EE4BE2EBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A13C9AC10C09B1FCB94F32815C79EF1D /* XCUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FBCE05572B1FB665DD504825F58373 /* XCUIKit-dummy.m */; };
+		A4FE136E655BDF8AE0B1B81EEF1223DE /* XCEdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEC29AE6064E14269744BFFD0A18D1 /* XCEdgeInsetsLabel.m */; };
 		AC276739DD70ACA55E3686E9CCD7602E /* Pods-XCUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A402400AFC7AA4C23D27618D620913B /* Pods-XCUIKit_Example-dummy.m */; };
-		C79BCC2C81FAEC17F32F4FABBDABF8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B195F5D4F163CF0600BC878B8BB6CEE9 /* XCPanDirectionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7DF12A9BFF92BD3950943CA20F58A /* XCPanDirectionGestureRecognizer.m */; };
+		DA1611E3FC6AE05E0205B8555F77A699 /* XCDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A27C414B3540EB282D666B51C3AD37BF /* XCDeviceUtil.m */; };
 		DAC97F88ECB237041A68858D4B2C6F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		044F3D4E0EB7BBD32E6FF9C6075F3D4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4062304FAA6E867E707BE1EB173A0114;
-			remoteInfo = "Pods-XCUIKit_Example";
-		};
-		1680CEB894BEA1600E119DC2803DC991 /* PBXContainerItemProxy */ = {
+		46EE5C233360C4033B9DF885AC1E5D1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7812C1A6673A7C59826F62D253F9DCFE;
 			remoteInfo = XCUIKit;
 		};
+		EA7E84530D8DCEF1CF4A4DB6B76610CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4062304FAA6E867E707BE1EB173A0114;
+			remoteInfo = "Pods-XCUIKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00935EEC31BED5D57C26072C12F1C89B /* XCUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCUIKit-Info.plist"; sourceTree = "<group>"; };
+		0124FD32E0CF44CA7066C5E67275DBBA /* XCUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XCUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		055A05E98518FD090CF23998362D8C78 /* Pods-XCUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08C25D01D7547DC8030C344D95A08051 /* XCUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCUIKit-prefix.pch"; sourceTree = "<group>"; };
 		0E647488238C9487861B3FC03F731DF4 /* Pods-XCUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		10383A35090B7DB462A3F0E1D7FFE16D /* Pods-XCUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XCUIKit_Tests"; path = Pods_XCUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15881B1D9A44E87116A3F7F23C1F6D09 /* Pods-XCUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1662CE4040382838AA448814D9084F57 /* Pods-XCUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2029F2A9CCA45E1587C0E2ED63DFF052 /* Pods-XCUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		28AA66915A0AB39378FE04974264FFAB /* XCPanDirectionGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPanDirectionGestureRecognizer.h; sourceTree = "<group>"; };
+		28FBCE05572B1FB665DD504825F58373 /* XCUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCUIKit-dummy.m"; sourceTree = "<group>"; };
 		321A46BB849507FC7E024FDCA23BD49D /* Pods-XCUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		3510AB545A7F3314F6B8B1F6D2BCD9C3 /* XCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCUIKit.release.xcconfig; sourceTree = "<group>"; };
 		38C33DAA795DE7D3099218D78A4F924B /* Pods-XCUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XCUIKit_Example"; path = Pods_XCUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEA586AAF25F71F973B1EC583567A85 /* Pods-XCUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		40FC0F2E4806682D88A315DF7440ED29 /* Pods-XCUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4765090A911AF343AE140FB76526084D /* UIButton+ImagePostion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePostion.h"; sourceTree = "<group>"; };
 		48F8694163D2B7D02802E5BF019F250B /* Pods-XCUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5AC015DEE74EE76B9D5CF1F05C909680 /* XCUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XCUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4CAEC29AE6064E14269744BFFD0A18D1 /* XCEdgeInsetsLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCEdgeInsetsLabel.m; sourceTree = "<group>"; };
+		4CD7A31980D82D497445DB022BFEED39 /* XCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		5FA3D8148FC75E51597DE2CEFE0E8146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6B17E7DCCFE7D4A487F3D8982ABB4CE8 /* Pods-XCUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		6EFBE9E2D508E229D0EF6556C1828C1E /* XCEdgeInsetsLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCEdgeInsetsLabel.h; sourceTree = "<group>"; };
 		6F7A0D1FD270C35AF7A74ADE176676AB /* Pods-XCUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7015F056E4853ABD6FD3FF56C830C699 /* UIButton+ImagePostion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePostion.h"; sourceTree = "<group>"; };
-		70FAE585BD407C04E5BFA087AA622F8B /* XCUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCUIKit-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73AC3A94A81046495791F32F7D6ADC9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		756DAE18B6F39B86A4007CC287703429 /* XCUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCUIKit-Info.plist"; sourceTree = "<group>"; };
 		8A402400AFC7AA4C23D27618D620913B /* Pods-XCUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCUIKit_Example-dummy.m"; sourceTree = "<group>"; };
 		926BACBFFE40C1783D604E61111D3B96 /* Pods-XCUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9531F3C5B5C28CB8751328D978618A09 /* XCEdgeInsetsLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCEdgeInsetsLabel.h; sourceTree = "<group>"; };
+		95C1E0BB220E723EB9F9321595B24769 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E06FEA6A61F275D6419F2E33089136 /* XCUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCUIKit.modulemap; sourceTree = "<group>"; };
+		A27C414B3540EB282D666B51C3AD37BF /* XCDeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCDeviceUtil.m; sourceTree = "<group>"; };
+		A28C7424F1F5746B6F3661634C943C52 /* XCPanDirectionGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPanDirectionGestureRecognizer.h; sourceTree = "<group>"; };
 		A45687311456C959E826754EEEB1FDCE /* Pods-XCUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		A889D7EBCEFFF3FD6C9DE3DEA0A04D9B /* Pods-XCUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC08224B1A2CDB0B17A01826DF56FD43 /* XCPanDirectionGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCPanDirectionGestureRecognizer.m; sourceTree = "<group>"; };
+		AF72191EB41D6B5FE92FEF4071BAAA9D /* XCDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCDeviceUtil.h; sourceTree = "<group>"; };
 		B1FD328BF8E38043131CF12BF5448AF2 /* Pods-XCUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B3103AD4DFDE60CBBB26B17369563D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C0AA2F281EE96DDB7E82B96EE1F4780C /* Pods-XCUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA7C73432144784F1DB0C2AB2B3D44BD /* UIButton+ImagePostion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePostion.m"; sourceTree = "<group>"; };
-		DCC546B9C28A019246D857BFE8F11F09 /* XCUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCUIKit-dummy.m"; sourceTree = "<group>"; };
-		E34246D491ED7FEE61E8BE745A8F928F /* XCUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCUIKit.modulemap; sourceTree = "<group>"; };
-		E609D02DF1D399F468FB244872827E12 /* XCUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCUIKit-prefix.pch"; sourceTree = "<group>"; };
-		E913EB0FBD69040E4432ED7D78AE2BDC /* XCUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCUIKit.debug.xcconfig; sourceTree = "<group>"; };
-		E9C59055409053F4E3E29A352DBE13BF /* XCEdgeInsetsLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCEdgeInsetsLabel.m; sourceTree = "<group>"; };
+		DC97D12CD1A5646C4ADA26816DB3E7C8 /* XCUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCUIKit-umbrella.h"; sourceTree = "<group>"; };
+		E3003379729D02818BEDF7C7C3C60554 /* UIButton+ImagePostion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePostion.m"; sourceTree = "<group>"; };
+		EDA7DF12A9BFF92BD3950943CA20F58A /* XCPanDirectionGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCPanDirectionGestureRecognizer.m; sourceTree = "<group>"; };
 		F4BBB11BBFD4EB471AF1DA87F48513E3 /* XCUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCUIKit; path = XCUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFB883984B02DDC839E8AFB503F6EBDC /* XCUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCUIKit.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,37 +103,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8FB79E30303DC18DEE8E8BA0777C253 /* Frameworks */ = {
+		C400C044CB4B9059A5D6A9ADB76D865D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79BCC2C81FAEC17F32F4FABBDABF8C9 /* Foundation.framework in Frameworks */,
+				9A67E240EAA16122A5ABD2EE4BE2EBAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0082290955360115FB560D941645A3F8 /* XCUI */ = {
+		049E66C8BD53881A93E2474C08A7E8B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7015F056E4853ABD6FD3FF56C830C699 /* UIButton+ImagePostion.h */,
-				DA7C73432144784F1DB0C2AB2B3D44BD /* UIButton+ImagePostion.m */,
-				6EFBE9E2D508E229D0EF6556C1828C1E /* XCEdgeInsetsLabel.h */,
-				E9C59055409053F4E3E29A352DBE13BF /* XCEdgeInsetsLabel.m */,
+				0C4E47DD270262AC5E85CAC984C0B686 /* XCUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0C4E47DD270262AC5E85CAC984C0B686 /* XCUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2A59773EF59FE151B3F7A31C255DC /* Pod */,
+				D9A56BA0DF948543F7E81B9F61A2816D /* Support Files */,
+				91B3B6B4BF7B3B988D513A67154A275D /* XCDevice */,
+				9A942D8D0AFA37B0D399A1328EDD2102 /* XCGuesture */,
+				1E0720D8530173BF115447D9BAF9DA8F /* XCUI */,
+			);
+			name = XCUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1E0720D8530173BF115447D9BAF9DA8F /* XCUI */ = {
+			isa = PBXGroup;
+			children = (
+				4765090A911AF343AE140FB76526084D /* UIButton+ImagePostion.h */,
+				E3003379729D02818BEDF7C7C3C60554 /* UIButton+ImagePostion.m */,
+				9531F3C5B5C28CB8751328D978618A09 /* XCEdgeInsetsLabel.h */,
+				4CAEC29AE6064E14269744BFFD0A18D1 /* XCEdgeInsetsLabel.m */,
 			);
 			name = XCUI;
 			path = XCUIKit/Classes/XCUI;
-			sourceTree = "<group>";
-		};
-		18C9CE7B38EAA8B44DEA04379876FFC6 /* XCGuesture */ = {
-			isa = PBXGroup;
-			children = (
-				28AA66915A0AB39378FE04974264FFAB /* XCPanDirectionGestureRecognizer.h */,
-				AC08224B1A2CDB0B17A01826DF56FD43 /* XCPanDirectionGestureRecognizer.m */,
-			);
-			name = XCGuesture;
-			path = XCUIKit/Classes/XCGuesture;
 			sourceTree = "<group>";
 		};
 		3E1F03C044B74B9D14E13D12169714EB /* Pods-XCUIKit_Tests */ = {
@@ -165,21 +180,6 @@
 			path = "Target Support Files/Pods-XCUIKit_Example";
 			sourceTree = "<group>";
 		};
-		48D41354A879182F6641427D00DEC3A5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E34246D491ED7FEE61E8BE745A8F928F /* XCUIKit.modulemap */,
-				DCC546B9C28A019246D857BFE8F11F09 /* XCUIKit-dummy.m */,
-				00935EEC31BED5D57C26072C12F1C89B /* XCUIKit-Info.plist */,
-				E609D02DF1D399F468FB244872827E12 /* XCUIKit-prefix.pch */,
-				70FAE585BD407C04E5BFA087AA622F8B /* XCUIKit-umbrella.h */,
-				E913EB0FBD69040E4432ED7D78AE2BDC /* XCUIKit.debug.xcconfig */,
-				FFB883984B02DDC839E8AFB503F6EBDC /* XCUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XCUIKit";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,26 +188,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		88C164F9A43F91B82FB65D09201E61B2 /* XCUIKit */ = {
+		91B3B6B4BF7B3B988D513A67154A275D /* XCDevice */ = {
 			isa = PBXGroup;
 			children = (
-				B092434815DE297DA1D200B6A859F1E4 /* Pod */,
-				48D41354A879182F6641427D00DEC3A5 /* Support Files */,
-				18C9CE7B38EAA8B44DEA04379876FFC6 /* XCGuesture */,
-				0082290955360115FB560D941645A3F8 /* XCUI */,
+				AF72191EB41D6B5FE92FEF4071BAAA9D /* XCDeviceUtil.h */,
+				A27C414B3540EB282D666B51C3AD37BF /* XCDeviceUtil.m */,
 			);
-			name = XCUIKit;
-			path = ../..;
+			name = XCDevice;
+			path = XCUIKit/Classes/XCDevice;
 			sourceTree = "<group>";
 		};
-		B092434815DE297DA1D200B6A859F1E4 /* Pod */ = {
+		9A942D8D0AFA37B0D399A1328EDD2102 /* XCGuesture */ = {
 			isa = PBXGroup;
 			children = (
-				B3103AD4DFDE60CBBB26B17369563D0B /* LICENSE */,
-				73AC3A94A81046495791F32F7D6ADC9C /* README.md */,
-				5AC015DEE74EE76B9D5CF1F05C909680 /* XCUIKit.podspec */,
+				A28C7424F1F5746B6F3661634C943C52 /* XCPanDirectionGestureRecognizer.h */,
+				EDA7DF12A9BFF92BD3950943CA20F58A /* XCPanDirectionGestureRecognizer.m */,
 			);
-			name = Pod;
+			name = XCGuesture;
+			path = XCUIKit/Classes/XCGuesture;
 			sourceTree = "<group>";
 		};
 		CB80B44AE117EE56418B5C7A1AD52221 /* Targets Support Files */ = {
@@ -223,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F0838C4D590FD7C48327C49F2A24F820 /* Development Pods */,
+				049E66C8BD53881A93E2474C08A7E8B0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FCD9DA1A775E7962461A5FD3257CC5B0 /* Products */,
 				CB80B44AE117EE56418B5C7A1AD52221 /* Targets Support Files */,
@@ -238,12 +236,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0838C4D590FD7C48327C49F2A24F820 /* Development Pods */ = {
+		D9A56BA0DF948543F7E81B9F61A2816D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88C164F9A43F91B82FB65D09201E61B2 /* XCUIKit */,
+				A0E06FEA6A61F275D6419F2E33089136 /* XCUIKit.modulemap */,
+				28FBCE05572B1FB665DD504825F58373 /* XCUIKit-dummy.m */,
+				756DAE18B6F39B86A4007CC287703429 /* XCUIKit-Info.plist */,
+				08C25D01D7547DC8030C344D95A08051 /* XCUIKit-prefix.pch */,
+				DC97D12CD1A5646C4ADA26816DB3E7C8 /* XCUIKit-umbrella.h */,
+				4CD7A31980D82D497445DB022BFEED39 /* XCUIKit.debug.xcconfig */,
+				3510AB545A7F3314F6B8B1F6D2BCD9C3 /* XCUIKit.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XCUIKit";
+			sourceTree = "<group>";
+		};
+		F2D2A59773EF59FE151B3F7A31C255DC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5FA3D8148FC75E51597DE2CEFE0E8146 /* LICENSE */,
+				95C1E0BB220E723EB9F9321595B24769 /* README.md */,
+				0124FD32E0CF44CA7066C5E67275DBBA /* XCUIKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FCD9DA1A775E7962461A5FD3257CC5B0 /* Products */ = {
@@ -267,14 +282,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A810C480F0F6BC5ED89CC6B2B3D561F0 /* Headers */ = {
+		3A56542C1802201DA401C3AA7BB50032 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FF2C0C650F45A40EB9A0D794D3791B /* UIButton+ImagePostion.h in Headers */,
-				4EE758F7E7F08B45E52CBEBC408493C2 /* XCEdgeInsetsLabel.h in Headers */,
-				7E5D91A9C24B7D4FCC59BA433551692F /* XCPanDirectionGestureRecognizer.h in Headers */,
-				8BC79AE016FD87D0B42D461B21E60E9B /* XCUIKit-umbrella.h in Headers */,
+				13330DEDE6540D2A5EDA7D5203975367 /* UIButton+ImagePostion.h in Headers */,
+				2B1988D04089E0064314F1CB8AAF4F5E /* XCDeviceUtil.h in Headers */,
+				7F2F344DC2BAC4BBFE1E52AF0C52AF7B /* XCEdgeInsetsLabel.h in Headers */,
+				51B53E7FC314BF968516ECB983C820CF /* XCPanDirectionGestureRecognizer.h in Headers */,
+				2E9929C39315718F7AC3FEA65230FB8B /* XCUIKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +317,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				87210E08F95E79B91939E591846993B0 /* PBXTargetDependency */,
+				8F6BAD69431EB6BFE34A6F458D12C35B /* PBXTargetDependency */,
 			);
 			name = "Pods-XCUIKit_Example";
 			productName = Pods_XCUIKit_Example;
@@ -320,7 +336,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BEE2BE85CEAF7F6D178DA43708E586FF /* PBXTargetDependency */,
+				D4147D4E690CB53FE275F9DF0408935C /* PBXTargetDependency */,
 			);
 			name = "Pods-XCUIKit_Tests";
 			productName = Pods_XCUIKit_Tests;
@@ -329,12 +345,12 @@
 		};
 		7812C1A6673A7C59826F62D253F9DCFE /* XCUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F23A26CEC47B9854ED6400DBCDCF5450 /* Build configuration list for PBXNativeTarget "XCUIKit" */;
+			buildConfigurationList = 4AD8C363EDAA9B2B7F0F3019AE5A8E4D /* Build configuration list for PBXNativeTarget "XCUIKit" */;
 			buildPhases = (
-				A810C480F0F6BC5ED89CC6B2B3D561F0 /* Headers */,
-				A7C28B87CA8E7475B265B0586B73BA0A /* Sources */,
-				E8FB79E30303DC18DEE8E8BA0777C253 /* Frameworks */,
-				EFBA1360DD3A2E9CE78D0D5A22165819 /* Resources */,
+				3A56542C1802201DA401C3AA7BB50032 /* Headers */,
+				2737242CE7E1F6EF71C1527FBC4A48BD /* Sources */,
+				C400C044CB4B9059A5D6A9ADB76D865D /* Frameworks */,
+				75EE9E6604FB03BEBAC9E7A6117E43CB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -351,8 +367,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,14 +398,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FD87BBF987F93B63AE79E5A6079D39E /* Resources */ = {
+		75EE9E6604FB03BEBAC9E7A6117E43CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFBA1360DD3A2E9CE78D0D5A22165819 /* Resources */ = {
+		9FD87BBF987F93B63AE79E5A6079D39E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,22 +415,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2737242CE7E1F6EF71C1527FBC4A48BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323EEB9CB8865589CBEF568BE454269B /* UIButton+ImagePostion.m in Sources */,
+				DA1611E3FC6AE05E0205B8555F77A699 /* XCDeviceUtil.m in Sources */,
+				A4FE136E655BDF8AE0B1B81EEF1223DE /* XCEdgeInsetsLabel.m in Sources */,
+				B195F5D4F163CF0600BC878B8BB6CEE9 /* XCPanDirectionGestureRecognizer.m in Sources */,
+				A13C9AC10C09B1FCB94F32815C79EF1D /* XCUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3257BD5FC7A4A120814844725B8A1DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				59D2BD2545831ACACB2820230155D34A /* Pods-XCUIKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7C28B87CA8E7475B265B0586B73BA0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87D9016DE6A908566D90FA784D2BDD2F /* UIButton+ImagePostion.m in Sources */,
-				3DA531C3D01C3062476A8262E89257BB /* XCEdgeInsetsLabel.m in Sources */,
-				3510DB4F010C5DA699EBE835BDB402E5 /* XCPanDirectionGestureRecognizer.m in Sources */,
-				61A36ECFFC113BB63EF077B5E7611C50 /* XCUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,17 +446,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87210E08F95E79B91939E591846993B0 /* PBXTargetDependency */ = {
+		8F6BAD69431EB6BFE34A6F458D12C35B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCUIKit;
 			target = 7812C1A6673A7C59826F62D253F9DCFE /* XCUIKit */;
-			targetProxy = 1680CEB894BEA1600E119DC2803DC991 /* PBXContainerItemProxy */;
+			targetProxy = 46EE5C233360C4033B9DF885AC1E5D1C /* PBXContainerItemProxy */;
 		};
-		BEE2BE85CEAF7F6D178DA43708E586FF /* PBXTargetDependency */ = {
+		D4147D4E690CB53FE275F9DF0408935C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XCUIKit_Example";
 			target = 4062304FAA6E867E707BE1EB173A0114 /* Pods-XCUIKit_Example */;
-			targetProxy = 044F3D4E0EB7BBD32E6FF9C6075F3D4D /* PBXContainerItemProxy */;
+			targetProxy = EA7E84530D8DCEF1CF4A4DB6B76610CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,6 +559,67 @@
 			};
 			name = Debug;
 		};
+		25B7659A6C1FF34D7CB5A5948A283C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3510AB545A7F3314F6B8B1F6D2BCD9C3 /* XCUIKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCUIKit/XCUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCUIKit/XCUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCUIKit/XCUIKit.modulemap";
+				PRODUCT_MODULE_NAME = XCUIKit;
+				PRODUCT_NAME = XCUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		575365EEC38AE027666D3F2FBE75C870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD7A31980D82D497445DB022BFEED39 /* XCUIKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCUIKit/XCUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCUIKit/XCUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCUIKit/XCUIKit.modulemap";
+				PRODUCT_MODULE_NAME = XCUIKit;
+				PRODUCT_NAME = XCUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5E566D1CFEF45A0BEC5E6F10F8DC0FA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0AA2F281EE96DDB7E82B96EE1F4780C /* Pods-XCUIKit_Tests.release.xcconfig */;
@@ -574,36 +652,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		82658813DA5139A075C857DE85842FBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E913EB0FBD69040E4432ED7D78AE2BDC /* XCUIKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCUIKit/XCUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XCUIKit/XCUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XCUIKit/XCUIKit.modulemap";
-				PRODUCT_MODULE_NAME = XCUIKit;
-				PRODUCT_NAME = XCUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -664,37 +712,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D38484D7D2070D740A729C268CD9BFF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFB883984B02DDC839E8AFB503F6EBDC /* XCUIKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCUIKit/XCUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XCUIKit/XCUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XCUIKit/XCUIKit.modulemap";
-				PRODUCT_MODULE_NAME = XCUIKit;
-				PRODUCT_NAME = XCUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -775,6 +792,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4AD8C363EDAA9B2B7F0F3019AE5A8E4D /* Build configuration list for PBXNativeTarget "XCUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575365EEC38AE027666D3F2FBE75C870 /* Debug */,
+				25B7659A6C1FF34D7CB5A5948A283C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		599B60FAC3130D9617A840646CC8998F /* Build configuration list for PBXNativeTarget "Pods-XCUIKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -789,15 +815,6 @@
 			buildConfigurations = (
 				0741CD9ECF522829B9D139A7EB4BA9C3 /* Debug */,
 				DFFC894E52CE53BA4020E139E8DA79BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F23A26CEC47B9854ED6400DBCDCF5450 /* Build configuration list for PBXNativeTarget "XCUIKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82658813DA5139A075C857DE85842FBF /* Debug */,
-				D38484D7D2070D740A729C268CD9BFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

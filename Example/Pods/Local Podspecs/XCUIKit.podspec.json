@@ -27,6 +27,10 @@
     {
       "name": "XCGuesture",
       "source_files": "Pod/Classes/XCGuesture/*"
+    },
+    {
+      "name": "XCDevice",
+      "source_files": "Pod/Classes/XCDevice/*"
     }
   ]
 }
